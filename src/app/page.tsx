@@ -9,8 +9,7 @@ export default function Home() {
   //   console.log("Null value");
   // }
   return (
-    <main className="flex gap-3 w-full justify-center py-4 rounded-full bg-black text-white text-lg font-medium transition-transform active:scale-95 mb-3 hover:opacity-75 ">
-      <div>Stripe Check Out</div>
+    <main className="flex min-h-screen flex-col items-center p-24 ">
       <StripeCheckOutButton />
     </main>
   );
