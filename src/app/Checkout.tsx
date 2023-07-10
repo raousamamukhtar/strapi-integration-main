@@ -39,12 +39,12 @@ const StripeCheckOutButton = () => {
   };
 
   return (
-    <div className="py-5">
+    <div className="">
       <button
-        className="flex gap-3 w-full justify-center py-4 rounded-full bg-white text-black text-lg font-medium transition-transform active:scale-95 mb-3 hover:opacity-75"
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 "
         onClick={handleCheckout}
       >
-        Check out
+        Check out by Stripe
       </button>
     </div>
   );
